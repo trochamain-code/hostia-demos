@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='74' font-size='92' text-anchor='middle' fill='%23fabdb4'>%E2%9C%B1</text></svg>">
+<title>No, ni, ná — Gastrobar · Los Palacios y Villafranca, Sevilla</title>
+<meta name="description" content="No, ni, ná: gastrobar en Los Palacios y Villafranca (Sevilla). La tapa es cultura: recetas tradicionales sevillanas y de la Sierra de Huelva con un toque creativo. Reserva directa, sin comisiones.">
+<meta property="og:title" content="No, ni, ná — Gastrobar · Sevilla">
+<meta property="og:description" content="La tapa es cultura. Cocina tradicional con toque creativo en Los Palacios y Villafranca. Reserva directa sin comisiones.">
+<meta property="og:type" content="restaurant.restaurant">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#003250; --accent:#fabdb4; --soft:#fff0f0; --white:#fff; --ink:#1e2428; --neutral:#f0f4f7;
+  --display:'Fraunces',Baskerville,'Times New Roman',serif;
+  --body:'Manrope',-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--soft);font-size:16px;line-height:1.7;font-weight:300;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1220px;margin:0 auto;padding:0 40px}
+.over{font-family:var(--body);font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:600;color:var(--accent)}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1;letter-spacing:-.01em}
+.btn{display:inline-block;font-family:var(--body);font-weight:600;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;background:var(--accent);color:var(--primary);padding:17px 34px;border-radius:2px;transition:.2s}
+.btn:hover{filter:brightness(1.05);transform:translateY(-2px)}
+.btn.ghost{background:transparent;border:1px solid var(--accent);color:var(--accent)}
+
+/* NAV */
+nav{position:absolute;top:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:26px 40px;color:var(--white)}
+nav .logo{font-family:var(--display);font-size:1.5rem;color:var(--white)}
+nav .links a{margin-left:30px;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;font-weight:500;opacity:.9}
+@media(max-width:760px){nav .links{display:none}}
+
+/* HERO */
+header{min-height:100svh;background:linear-gradient(rgba(0,50,80,.62),rgba(0,50,80,.72)),url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&q=70') center/cover;color:var(--white);display:flex;flex-direction:column;justify-content:center;text-align:center;padding:120px 40px 80px}
+header .over{margin-bottom:26px}
+header h1{font-size:clamp(72px,15vw,190px);color:var(--soft)}
+header .sub{font-size:1.15rem;max-width:560px;margin:28px auto 40px;opacity:.94;font-weight:300}
+header .cta-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+
+/* SECTION base */
+section{padding:8rem 0}
+.lead h2{font-size:clamp(40px,7vw,86px);color:var(--primary);max-width:14ch}
+.lead p{font-size:1.15rem;max-width:52ch;margin-top:30px;color:#3a444c}
+.two{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}
+.two img{width:100%;height:640px;object-fit:cover;border-radius:2px}
+@media(max-width:860px){.two{grid-template-columns:1fr;gap:36px}.two img{height:420px}}
+
+/* PILLARS */
+.dark{background:var(--primary);color:var(--soft)}
+.dark h2{color:var(--soft)}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:50px;margin-top:70px}
+.pillars .p .n{font-family:var(--display);font-size:2.6rem;color:var(--accent);display:block;margin-bottom:14px}
+.pillars .p h3{font-size:1.5rem;color:var(--white);margin-bottom:10px}
+.pillars .p p{opacity:.82;font-size:.98rem}
+@media(max-width:760px){.pillars{grid-template-columns:1fr;gap:38px}}
+
+/* GALLERY */
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:60px}
+.gal img{width:100%;height:340px;object-fit:cover;border-radius:2px}
+.gal img:first-child{grid-row:span 2;height:694px}
+@media(max-width:760px){.gal{grid-template-columns:1fr 1fr}.gal img,.gal img:first-child{height:220px}}
+
+/* RESERVA */
+.reserva{background:var(--soft);text-align:center}
+.reserva h2{font-size:clamp(40px,6vw,72px);color:var(--primary)}
+.reserva p{max-width:46ch;margin:24px auto 36px;color:#3a444c;font-size:1.1rem}
+.badge-nc{display:inline-block;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--primary);border:1px solid var(--accent);border-radius:40px;padding:8px 20px;margin-bottom:26px}
+
+/* FOOTER */
+footer{background:var(--primary);color:#cdd8e0;padding:80px 40px 40px;text-align:center}
+footer .fh{font-family:var(--display);font-size:2.4rem;color:var(--white);margin-bottom:10px}
+footer .info{display:flex;gap:40px;justify-content:center;flex-wrap:wrap;margin:34px 0;font-size:.95rem}
+footer .sello{margin-top:34px;font-size:.8rem;color:#8ea3b3;border-top:1px solid rgba(255,255,255,.12);padding-top:24px}
+footer a{color:var(--accent)}
+.float{position:fixed;bottom:22px;right:22px;background:var(--accent);color:var(--primary);padding:14px 24px;border-radius:40px;font-weight:600;font-size:.85rem;letter-spacing:.05em;box-shadow:0 8px 26px rgba(0,50,80,.3);z-index:99}
+.floatw{position:fixed;bottom:22px;left:22px;background:#25D366;color:#fff;padding:14px 22px;border-radius:40px;font-weight:600;font-size:.85rem;box-shadow:0 8px 26px rgba(0,0,0,.25);z-index:99}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">No, ni, ná</div>
+  <div class="links"><a href="#cocina">La cocina</a><a href="#reserva">Reservar</a><a href="#contacto">Contacto</a></div>
+</nav>
+
+<header>
+  <span class="over">Gastrobar · Los Palacios y Villafranca · Sevilla</span>
+  <h1>No, ni, ná</h1>
+  <p class="sub">La tapa es cultura. Recetas tradicionales sevillanas y de la Sierra de Huelva, con un toque creativo.</p>
+  <div class="cta-row">
+    <a class="btn" href="tel:+34955188240">Reservar mesa</a>
+    <a class="btn ghost" href="#cocina">Descubrir la carta</a>
+  </div>
+</header>
+
+<section id="cocina">
+  <div class="wrap two">
+    <div class="lead">
+      <span class="over" style="color:var(--primary)">La cocina</span>
+      <h2 style="margin-top:20px">Tradición con un toque creativo</h2>
+      <p>Producto de cercanía, guisos de siempre y tapas para compartir. Cocina honesta de Los Palacios, con raíces en Sevilla y en la Sierra de Huelva. Desayunos, mediodía y noche.</p>
+      <p style="margin-top:14px;font-size:.9rem;color:#8a8a8a"><em>Textos y platos de ejemplo — se ajustan con los reales del restaurante antes de publicar.</em></p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000&q=70" alt="Plato de la casa (ejemplo)">
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap">
+    <span class="over">La experiencia</span>
+    <h2 style="font-size:clamp(38px,6vw,72px);margin-top:18px;max-width:16ch">Un equipo profesional, un cliente feliz</h2>
+    <div class="pillars">
+      <div class="p"><span class="n">01</span><h3>La tapa es cultura</h3><p>Recetas de siempre reinterpretadas, con producto de temporada y mimo en cada plato.</p></div>
+      <div class="p"><span class="n">02</span><h3>Reserva directa</h3><p>Tu mesa, contigo. Reservas gestionadas por el restaurante, sin intermediarios que se lleven comisión.</p></div>
+      <div class="p"><span class="n">03</span><h3>Trato cercano</h3><p>Un equipo eficiente y atento: porque un cliente bien atendido es un cliente feliz.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <span class="over" style="color:var(--primary)">La casa</span>
+    <h2 style="font-size:clamp(40px,7vw,86px);color:var(--primary);margin-top:16px">Sabor de aquí</h2>
+    <div class="gal">
+      <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=900&q=70" alt="Ambiente (ejemplo)">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=700&q=70" alt="Plato (ejemplo)">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700&q=70" alt="Tapa (ejemplo)">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=70" alt="Mesa (ejemplo)">
+      <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=700&q=70" alt="Detalle (ejemplo)">
+    </div>
+  </div>
+</section>
+
+<section class="reserva" id="reserva">
+  <div class="wrap">
+    <div class="badge-nc">Reserva directa · sin comisiones</div>
+    <h2>¿Reservamos tu mesa?</h2>
+    <p>Comida o cena, entre semana o fin de semana. Llámanos o escríbenos por WhatsApp y te guardamos el sitio.</p>
+    <div class="cta-row" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+      <a class="btn" href="tel:+34955188240">Llamar · 955 18 82 40</a>
+      <a class="btn ghost" style="border-color:var(--primary);color:var(--primary)" href="https://wa.me/34609022431?text=Hola%2C%20quiero%20reservar%20en%20No%20ni%20na">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer id="contacto">
+  <div class="fh">No, ni, ná</div>
+  <span class="over">Gastrobar · Sevilla</span>
+  <div class="info">
+    <div>📍 Avda. Sevilla 6<br>Los Palacios y Villafranca, Sevilla</div>
+    <div>📞 955 18 82 40<br>WhatsApp 609 022 431</div>
+    <div>🕒 Desayunos · Comidas · Cenas<br><span style="opacity:.7">(horario de ejemplo)</span></div>
+  </div>
+  <div class="sello">Hecho con <span style="color:var(--accent)">✱</span> por <b style="color:#fff">HOST.IA</b> · <a href="https://host-ia.online">host-ia.online</a><br>
+  Demo de muestra — datos, platos y fotos de ejemplo, se ajustan con el cliente antes de publicar.</div>
+</footer>
+
+<a class="float" href="tel:+34955188240">📞 Reservar</a>
+<a class="floatw" href="https://wa.me/34609022431?text=Hola%2C%20quiero%20reservar%20en%20No%20ni%20na">💬 WhatsApp</a>
+</body>
+</html>
