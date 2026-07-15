@@ -5,12 +5,8 @@
       "destination": "/prueba/:path*/index.html"
     },
     {
-      "source": "/prueba/:path*",
-      "destination": "/prueba/:path*/index.html"
-    },
-    {
-      "source": "/:path*",
-      "destination": "/:path*.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
