@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Arturo | Taller Mecánico en Sevilla</title>
+    <meta name="description" content="Taller Arturo - Taller mecánico de confianza en Sevilla. Reparaciones, mantenimiento y diagnóstico profesional.">
+    <meta property="og:title" content="Taller Arturo | Taller Mecánico en Sevilla">
+    <meta property="og:description" content="Taller mecánico de confianza en Sevilla. Reparaciones, mantenimiento y diagnóstico profesional.">
+    <meta property="og:type" content="website">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Taller Arturo",
+        "description": "Taller mecánico en Sevilla",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sevilla",
+            "addressCountry": "ES"
+        }
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: linear-gradient(135deg, #FB2B35 0%, #c41e3a 100%); color: white; padding: 20px 0; }
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 2rem; font-weight: bold; }
+        .nav-links a { color: white; text-decoration: none; margin-left: 20px; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1486262715691-0a7685b6c55f?w=1200'); background-size: cover; background-position: center; color: white; text-align: center; padding: 100px 20px; }
+        .hero h1 { font-size: 3rem; margin-bottom: 20px; }
+        .hero p { font-size: 1.3rem; margin-bottom: 30px; }
+        .cta { background: #FBFBFB; color: #FB2B35; padding: 15px 40px; border: none; border-radius: 5px; font-size: 1.1rem; cursor: pointer; text-decoration: none; display: inline-block; font-weight: bold; }
+        .section { padding: 60px 20px; }
+        .section-title { text-align: center; font-size: 2.2rem; margin-bottom: 40px; color: #FB2B35; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: white; border-radius: 10px; padding: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .card h3 { color: #FB2B35; margin-bottom: 15px; }
+        .price { font-size: 1.5rem; font-weight: bold; color: #FB2B35; margin: 10px 0; }
+        .example-badge { background: #ff9800; color: white; padding: 3px 10px; border-radius: 3px; font-size: 0.8rem; margin-left: 10px; }
+        footer { background: #1a1a1a; color: #999; padding: 40px 20px; text-align: center; }
+        .disclaimer { background: #fff3cd; color: #856404; padding: 15px; margin: 20px 0; border-radius: 5px; font-size: 0.9rem; }
+        .contact-info { margin-top: 20px; }
+        .contact-info p { margin: 5px 0; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .header-content { flex-direction: column; text-align: center; }
+            .nav-links { margin-top: 15px; }
+            .nav-links a { margin: 0 10px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">🔧 Taller Arturo</div>
+            <nav class="nav-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Tu Coche en Buenas Manos</h1>
+            <p>Mecánica de confianza con más de 25 años de experiencia</p>
+            <a href="#contacto" class="cta">Pedir Cita</a>
+        </div>
+    </section>
+
+    <section class="section" id="servicios">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>🔧 Mantenimiento General</h3>
+                    <p>Cambios de aceite, filtros, revisiones periódicas y mantenimiento preventivo</p>
+                    <div class="price">Desde 60€ <span class="example-badge">ejemplo</span></div>
+                </div>
+                <div class="card">
+                    <h3>⚡ Diagnóstico OBD</h3>
+                    <p>Diagnóstico computerizado para identificar fallos del motor y sistemas electrónicos</p>
+                    <div class="price">40€ <span class="example-badge">ejemplo</span></div>
+                </div>
+                <div class="card">
+                    <h3>🛞 Frenos y Suspensión</h3>
+                    <p>Cambio de pastillas, discos, amortiguadores y revisión completa del sistema de frenado</p>
+                    <div class="price">Desde 120€ <span class="example-badge">ejemplo</span></div>
+                </div>
+                <div class="card">
+                    <h3>🔋 Batería y Electricidad</h3>
+                    <p>Cambio de batería, alternador, motor de arranque y reparaciones eléctricas</p>
+                    <div class="price">Desde 80€ <span class="example-badge">ejemplo</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background: #f9f9f9;" id="nosotros">
+        <div class="container">
+            <h2 class="section-title">Por Qué Elegirnos</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>👨‍🔧 Experiencia Contrastada</h3>
+                    <p>Más de 25 años dedicados a la mecánica automotriz con miles de clientes satisfechos.</p>
+                </div>
+                <div class="card">
+                    <h3>🔍 Diagnóstico Preciso</h3>
+                    <p>Equipamiento de última generación para identificar cualquier problema rápidamente.</p>
+                </div>
+                <div class="card">
+                    <h3>💰 Precios Transparentes</h3>
+                    <p>Presupuestos claros sin sorpresas. Te informamos antes de realizar cualquier trabajo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Pide tu Cita</h2>
+            <div class="card" style="max-width: 600px; margin: 0 auto;">
+                <div class="contact-info">
+                    <p><strong>📧 Email:</strong> citas@tallerarturo.com</p>
+                    <p><strong>📍 Ubicación:</strong> Sevilla, España</p>
+                </div>
+                <div style="margin-top: 30px; text-align: center;">
+                    <a href="mailto:citas@tallerarturo.com" class="cta">Solicitar Cita</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="disclaimer">
+                ⚠️ Esta demo es genérica y de ejemplo. Los precios, reseñas y datos se ajustan a tu negocio antes de publicar.
+            </div>
+            <p>&copy; 2026 Taller Arturo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
