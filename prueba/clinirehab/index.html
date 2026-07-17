@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clinirehab · Clínica Dental y Salud Integral en Almería | Pide tu cita</title>
+<meta name="description" content="Clinirehab, tu clínica de salud integral en Almería: dentista, implantes, Invisalign, fisioterapia, nutrición y medicina del sueño. Avenida Cabo de Gata 88. Pide cita: 950 083 749.">
+<meta property="og:title" content="Clinirehab · Clínica Dental y Salud Integral en Almería">
+<meta property="og:description" content="Dentista, implantes, Invisalign, fisioterapia y nutrición en Almería. Cita online sin esperas · Avda. Cabo de Gata 88 · 950 083 749.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Clinirehab (demostración no oficial)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230D5C5C'/%3E%3Cpath d='M20 18c0-4 3.5-7 8-7 2.2 0 3.2.9 4 .9s1.8-.9 4-.9c4.5 0 8 3 8 7 0 8-4 14-6.5 25-.4 1.8-1.3 3-2.7 3-2.6 0-1.4-9-2.8-9s-.2 9-2.8 9c-1.4 0-2.3-1.2-2.7-3C24 32 20 26 20 18z' fill='%23fff'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Clinirehab — Clínica de Salud Integral",
+  "description": "Clínica dental y de salud integral en Almería: odontología, implantes, Invisalign, fisioterapia, nutrición y medicina dental del sueño.",
+  "url": "https://clinirehab.es",
+  "email": "info@clinirehab.es",
+  "telephone": "+34950083749",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Avenida Cabo de Gata, 88",
+    "postalCode": "04007",
+    "addressLocality": "Almería",
+    "addressRegion": "Andalucía",
+    "addressCountry": "ES"
+  },
+  "openingHoursSpecification": [
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Wednesday"],"opens":"09:00","closes":"13:30"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Wednesday"],"opens":"16:30","closes":"20:30"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Thursday"],"opens":"08:00","closes":"15:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Friday","opens":"09:00","closes":"14:00"}
+  ],
+  "priceRange": "€€"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --teal-950:#0A3A3E;
+  --teal-900:#0D5C5C;
+  --teal-700:#147878;
+  --aqua:#2CB9A9;
+  --aqua-soft:#E4F5F2;
+  --sand:#F4EDE3;
+  --sand-deep:#E9DFCF;
+  --coral:#E8846B;
+  --ink:#1E2B2B;
+  --ink-soft:#4E6262;
+  --white:#FFFFFF;
+  --hostia:#FB2B35;
+  --radius:18px;
+  --shadow:0 12px 34px rgba(10,58,62,.12);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Outfit',system-ui,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;line-height:1.15;color:var(--teal-950)}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+.demo-band{background:var(--teal-950);color:#CFE8E4;font-size:.78rem;text-align:center;padding:7px 14px;letter-spacing:.04em}
+.demo-band strong{color:#fff}
+/* NAV */
+nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid rgba(13,92,92,.1)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:66px}
+.logo{display:flex;align-items:center;gap:10px;font-family:'Fraunces',serif;font-weight:700;font-size:1.25rem;color:var(--teal-900);text-decoration:none}
+.logo svg{width:34px;height:34px}
+.nav-links{display:flex;gap:26px;list-style:none;font-size:.93rem;font-weight:500}
+.nav-links a{text-decoration:none;color:var(--ink-soft);transition:color .2s}
+.nav-links a:hover{color:var(--teal-700)}
+.btn{display:inline-block;background:var(--teal-900);color:#fff;text-decoration:none;font-weight:600;padding:12px 26px;border-radius:999px;border:none;cursor:pointer;font-size:.95rem;transition:transform .15s, box-shadow .15s, background .2s}
+.btn:hover{background:var(--teal-700);transform:translateY(-2px);box-shadow:0 10px 24px rgba(13,92,92,.25)}
+.btn.coral{background:var(--coral)}
+.btn.coral:hover{background:#d9704f}
+.btn.ghost{background:transparent;color:var(--teal-900);border:2px solid var(--teal-900)}
+.btn.ghost:hover{background:var(--teal-900);color:#fff}
+/* HERO */
+.hero{background:linear-gradient(160deg,var(--sand) 0%,var(--aqua-soft) 100%);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-140px;top:-140px;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,rgba(44,185,169,.22),transparent 68%)}
+.hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding:72px 0 84px;position:relative;z-index:1}
+.kicker{display:inline-block;background:#fff;border:1px solid rgba(13,92,92,.15);color:var(--teal-700);font-size:.78rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase;padding:7px 16px;border-radius:999px;margin-bottom:20px}
+.hero h1{font-size:clamp(2.1rem,4.6vw,3.4rem);margin-bottom:18px}
+.hero h1 em{font-style:normal;color:var(--teal-700);position:relative}
+.hero p.lead{font-size:1.13rem;color:var(--ink-soft);max-width:520px;margin-bottom:30px}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px}
+.hero-facts{display:flex;gap:26px;flex-wrap:wrap;font-size:.88rem;color:var(--ink-soft)}
+.hero-facts b{display:block;font-family:'Fraunces',serif;font-size:1.3rem;color:var(--teal-950)}
+.hero-card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:26px;position:relative}
+.hero-card .tag{position:absolute;top:-13px;right:20px;background:var(--coral);color:#fff;font-size:.72rem;font-weight:600;padding:5px 14px;border-radius:999px;letter-spacing:.05em}
+.hero-card h3{font-size:1.15rem;margin-bottom:14px}
+.slotgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:16px}
+.slot{border:1.5px solid var(--sand-deep);border-radius:10px;text-align:center;padding:9px 4px;font-size:.83rem;font-weight:500;cursor:pointer;transition:all .15s;background:#fff}
+.slot:hover{border-color:var(--aqua)}
+.slot.on{background:var(--teal-900);color:#fff;border-color:var(--teal-900)}
+.slot.off{opacity:.35;text-decoration:line-through;cursor:default}
+.hero-card small{color:var(--ink-soft);display:block;margin-top:12px;font-size:.76rem}
+.mini-note{font-size:.72rem;color:#9AA9A9;margin-top:8px}
+/* SECTIONS */
+section{padding:78px 0}
+.sec-head{max-width:640px;margin-bottom:44px}
+.sec-head .kicker{background:var(--aqua-soft);border-color:transparent}
+.sec-head h2{font-size:clamp(1.7rem,3.2vw,2.4rem);margin-bottom:12px}
+.sec-head p{color:var(--ink-soft)}
+/* SERVICES */
+.services{background:#fff}
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.svc{background:var(--sand);border-radius:var(--radius);padding:26px 22px;transition:transform .18s, box-shadow .18s;position:relative}
+.svc:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+.svc .ico{width:46px;height:46px;border-radius:12px;background:var(--teal-900);display:flex;align-items:center;justify-content:center;margin-bottom:16px;font-size:1.3rem}
+.svc h3{font-size:1.05rem;margin-bottom:8px}
+.svc p{font-size:.87rem;color:var(--ink-soft)}
+.svc.alt{background:var(--aqua-soft)}
+.integral{margin-top:34px;background:var(--teal-950);border-radius:var(--radius);padding:34px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;color:#DCEFEB}
+.integral h3{color:#fff;font-size:1.35rem;margin-bottom:8px}
+.integral p{font-size:.92rem;max-width:560px}
+.chiprow{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.chip{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:6px 14px;border-radius:999px;font-size:.8rem}
+/* TRUST */
+.trust{background:linear-gradient(180deg,var(--sand) 0%,#fff 100%)}
+.trust-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-bottom:36px}
+.tcard{background:#fff;border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}
+.tcard .big{font-family:'Fraunces',serif;font-size:1.9rem;color:var(--teal-700);margin-bottom:6px}
+.tcard p{font-size:.9rem;color:var(--ink-soft)}
+.review{background:#fff;border-left:5px solid var(--aqua);border-radius:12px;padding:24px 28px;box-shadow:var(--shadow);max-width:720px}
+.review p{font-size:1.02rem;font-style:italic;color:var(--ink)}
+.review footer{margin-top:12px;font-size:.8rem;color:#9AA9A9}
+/* AI + BOOKING */
+.potential{background:var(--teal-950);color:#D8ECE8}
+.potential .sec-head h2, .potential .sec-head p{color:#fff}
+.potential .sec-head p{opacity:.75}
+.pot-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.pot-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:30px}
+.pot-card h3{color:#fff;font-size:1.2rem;margin-bottom:10px}
+.pot-card > p{font-size:.9rem;opacity:.8;margin-bottom:20px}
+.chat{background:rgba(10,58,62,.6);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.bub{max-width:85%;padding:10px 15px;border-radius:14px;font-size:.86rem;line-height:1.45}
+.bub.user{align-self:flex-end;background:var(--aqua);color:var(--teal-950);border-bottom-right-radius:4px;font-weight:500}
+.bub.bot{align-self:flex-start;background:#fff;color:var(--ink);border-bottom-left-radius:4px}
+.pot-card ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+.pot-card li{display:flex;gap:12px;align-items:flex-start;font-size:.92rem}
+.tick{flex:none;width:22px;height:22px;border-radius:50%;background:var(--aqua);color:var(--teal-950);display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:700;margin-top:2px}
+/* CTA */
+.cta{background:linear-gradient(135deg,var(--teal-900),var(--teal-700));color:#fff;text-align:center;border-radius:26px;padding:60px 30px;margin:0 22px}
+.cta h2{color:#fff;font-size:clamp(1.7rem,3.4vw,2.5rem);margin-bottom:14px}
+.cta p{opacity:.85;max-width:520px;margin:0 auto 28px}
+.cta .btn{background:#fff;color:var(--teal-900)}
+.cta .btn:hover{background:var(--sand)}
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:32px}
+.cbox{background:var(--sand);border-radius:var(--radius);padding:30px}
+.cbox h3{font-size:1.1rem;margin-bottom:16px}
+.cline{display:flex;gap:14px;margin-bottom:16px;font-size:.94rem}
+.cline .ci{flex:none;width:38px;height:38px;border-radius:10px;background:#fff;display:flex;align-items:center;justify-content:center;font-size:1.05rem;box-shadow:0 4px 12px rgba(10,58,62,.08)}
+.cline b{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--teal-700)}
+.cline a{text-decoration:none;color:var(--ink)}
+.cline a:hover{color:var(--teal-700)}
+.hours{background:var(--teal-950);color:#D8ECE8;border-radius:var(--radius);padding:30px}
+.hours h3{color:#fff;font-size:1.1rem;margin-bottom:16px}
+.hours table{width:100%;border-collapse:collapse;font-size:.92rem}
+.hours td{padding:9px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.hours td:last-child{text-align:right;color:#fff;font-weight:500}
+.hours .note{font-size:.76rem;opacity:.65;margin-top:14px}
+/* FOOTER */
+footer.site{background:var(--teal-950);color:#9FC4BF;padding:44px 0 30px;font-size:.85rem}
+.f-in{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:flex-start}
+.f-in .logo{color:#fff}
+.f-legal{margin-top:28px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:.78rem;opacity:.85}
+.hostia-seal{color:#CFE8E4;text-decoration:none}
+.hostia-seal b{color:var(--hostia);font-size:1rem}
+/* RESPONSIVE */
+@media(max-width:900px){
+  .hero-in,.pot-grid,.contact-grid{grid-template-columns:1fr}
+  .svc-grid{grid-template-columns:repeat(2,1fr)}
+  .trust-grid{grid-template-columns:1fr}
+  .integral{grid-template-columns:1fr}
+  .nav-links{display:none}
+  .hero-in{padding:48px 0 60px}
+  section{padding:58px 0}
+}
+@media(max-width:520px){
+  .svc-grid{grid-template-columns:1fr}
+  .slotgrid{grid-template-columns:repeat(3,1fr)}
+  .hero-ctas .btn{width:100%;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<div class="demo-band">⚠️ <strong>DEMOSTRACIÓN NO OFICIAL</strong> — muestra creada por HOST.IA para Clinirehab. No es la web oficial de la clínica.</div>
+
+<nav>
+  <div class="wrap nav-in">
+    <a class="logo" href="#top" aria-label="Clinirehab inicio">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#0D5C5C"/><path d="M20 18c0-4 3.5-7 8-7 2.2 0 3.2.9 4 .9s1.8-.9 4-.9c4.5 0 8 3 8 7 0 8-4 14-6.5 25-.4 1.8-1.3 3-2.7 3-2.6 0-1.4-9-2.8-9s-.2 9-2.8 9c-1.4 0-2.3-1.2-2.7-3C24 32 20 26 20 18z" fill="#fff"/></svg>
+      Clinirehab
+    </a>
+    <ul class="nav-links">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#confianza">La clínica</a></li>
+      <li><a href="#potencial">Cita online</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a class="btn" href="tel:950083749">📞 950 083 749</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-in">
+    <div>
+      <span class="kicker">Clínica de Salud Integral · Almería</span>
+      <h1>Tu sonrisa y tu salud, <em>en un mismo sitio</em>.</h1>
+      <p class="lead">En <strong>Clinirehab</strong> cuidamos tu boca, tu descanso, tu cuerpo y tu alimentación. Dentista, fisioterapia, nutrición y medicina del sueño en la Avenida Cabo de Gata, con parking gratuito para pacientes.</p>
+      <div class="hero-ctas">
+        <a class="btn coral" href="#potencial">Pedir cita online</a>
+        <a class="btn ghost" href="#servicios">Ver tratamientos</a>
+      </div>
+      <div class="hero-facts">
+        <div><b>4 en 1</b>Dental · Fisio · Nutrición · Sueño</div>
+        <div><b>Financiación</b>Tratamientos a tu ritmo</div>
+        <div><b>Parking</b>Gratuito para pacientes</div>
+      </div>
+    </div>
+    <aside class="hero-card" aria-label="Ejemplo de reserva de cita">
+      <span class="tag">SIN COMISIONES</span>
+      <h3>🗓️ Reserva tu revisión dental</h3>
+      <div class="slotgrid">
+        <div class="slot off">9:00</div>
+        <div class="slot">10:30</div>
+        <div class="slot on">12:00</div>
+        <div class="slot">16:30</div>
+        <div class="slot">17:30</div>
+        <div class="slot off">19:00</div>
+      </div>
+      <button class="btn" style="width:100%" onclick="document.getElementById('potencial').scrollIntoView()">Confirmar cita de las 12:00</button>
+      <small>Confirmación instantánea por WhatsApp o email. Tú eliges.</small>
+      <p class="mini-note">* Módulo ilustrativo de la demo: horarios de ejemplo.</p>
+    </aside>
+  </div>
+</header>
+
+<section class="services" id="servicios">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Tratamientos dentales</span>
+      <h2>Odontología completa, de la revisión al implante</h2>
+      <p>Estos son los tratamientos que Clinirehab ofrece hoy en su clínica dental de Almería.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc"><div class="ico">✨</div><h3>Estética dental</h3><p>Una sonrisa bonita embellece y genera actitudes positivas en los demás.</p></div>
+      <div class="svc alt"><div class="ico">🦷</div><h3>Implantes dentales</h3><p>Lo más parecido a tus dientes naturales cuando falta una pieza.</p></div>
+      <div class="svc"><div class="ico">😁</div><h3>Ortodoncia e Invisalign</h3><p>Alineadores prácticamente invisibles y extraíbles para alinear tu sonrisa.</p></div>
+      <div class="svc alt"><div class="ico">🪥</div><h3>Periodoncia</h3><p>Prevención, diagnóstico y tratamiento de los problemas de encías.</p></div>
+      <div class="svc alt"><div class="ico">🔬</div><h3>Endodoncia</h3><p>La técnica de referencia para tratar y curar enfermedades dentarias.</p></div>
+      <div class="svc"><div class="ico">🌙</div><h3>Medicina del sueño</h3><p>Estudiamos tu sueño y tratamos apneas y roncopatías para que descanses.</p></div>
+      <div class="svc alt"><div class="ico">🧩</div><h3>Prótesis dental</h3><p>Removibles o fijas, realizadas con la máxima calidad y resultado.</p></div>
+      <div class="svc"><div class="ico">💶</div><h3>Financiación</h3><p>Gana salud y bienestar sin que el importe del tratamiento sea un problema.</p></div>
+    </div>
+    <div class="integral">
+      <div>
+        <h3>Y además, salud integral bajo el mismo techo</h3>
+        <p>Clinirehab no es solo dentista: es un equipo completo para que seas tu mejor versión, por dentro y por fuera.</p>
+        <div class="chiprow">
+          <span class="chip">🥗 Nutricionista</span>
+          <span class="chip">💆 Fisioterapia</span>
+          <span class="chip">😴 Medicina dental del sueño</span>
+          <span class="chip">🚨 Urgencias: 601 230 124</span>
+        </div>
+      </div>
+      <a class="btn coral" href="#contacto">Consúltanos</a>
+    </div>
+  </div>
+</section>
+
+<section class="trust" id="confianza">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Por qué Clinirehab</span>
+      <h2>Una clínica pensada para ponértelo fácil</h2>
+    </div>
+    <div class="trust-grid">
+      <div class="tcard"><div class="big">Salud 360º</div><p>Odontología, fisioterapia, nutrición y sueño coordinados por un mismo equipo: tu historial completo, en un solo sitio.</p></div>
+      <div class="tcard"><div class="big">Sin barreras</div><p>Financiación en tratamientos dentales y parking gratuito para pacientes en plena Avenida Cabo de Gata.</p></div>
+      <div class="tcard"><div class="big">Urgencias</div><p>Teléfono de emergencias propio (601 230 124) para cuando más lo necesitas.</p></div>
+    </div>
+    <blockquote class="review">
+      <p>"Me resolvieron la apnea y de paso me arreglaron la sonrisa. Tener dentista y fisio en el mismo sitio, con parking, no tiene precio."</p>
+      <footer>★★★★★ — Reseña de ejemplo (ilustrativa). En la web final se conectan tus reseñas reales de Google.</footer>
+    </blockquote>
+  </div>
+</section>
+
+<section class="potential" id="potencial">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker" style="background:rgba(255,255,255,.12);color:#fff">Así trabajaría tu nueva web</span>
+      <h2>Citas online 24/7 y una IA que atiende por ti</h2>
+      <p>Esto es lo que esta web podría hacer por Clinirehab desde el primer día. Módulos ilustrativos de la demostración.</p>
+    </div>
+    <div class="pot-grid">
+      <div class="pot-card">
+        <h3>🤖 Asistente IA para pacientes</h3>
+        <p>Responde dudas, filtra urgencias y agenda citas aunque la clínica esté cerrada.</p>
+        <div class="chat" aria-label="Conversación de ejemplo con el asistente">
+          <div class="bub user">Hola, se me ha caído un empaste y me duele. ¿Podéis verme?</div>
+          <div class="bub bot">¡Claro! Para urgencias tenemos el 601 230 124. Y te puedo reservar hueco mañana a las 10:30 con el doctor. ¿Te lo confirmo?</div>
+          <div class="bub user">Sí, perfecto 🙏</div>
+          <div class="bub bot">✅ Hecho. Cita mañana 10:30 en Avda. Cabo de Gata 88. Te llega la confirmación por WhatsApp. ¡Recuerda el parking gratuito!</div>
+        </div>
+      </div>
+      <div class="pot-card">
+        <h3>📅 Reservas propias, sin comisiones</h3>
+        <p>Tu agenda, tus reglas. Nada de plataformas de terceros que se llevan un porcentaje.</p>
+        <ul>
+          <li><span class="tick">✓</span> El paciente reserva en 20 segundos desde el móvil, sin llamar.</li>
+          <li><span class="tick">✓</span> Recordatorios automáticos por WhatsApp: menos citas perdidas.</li>
+          <li><span class="tick">✓</span> 0 € de comisión por cita: el sistema es tuyo, no de un portal.</li>
+          <li><span class="tick">✓</span> La agenda se sincroniza con el horario real de la clínica.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta">
+  <h2>¿Molestias, revisión pendiente o simplemente ganas de sonreír más?</h2>
+  <p>El equipo de Clinirehab te atiende en Almería. Primera consulta y valoración de tu caso sin compromiso.*</p>
+  <a class="btn" href="tel:950083749">Llamar: 950 083 749</a>
+  <p style="font-size:.72rem;opacity:.6;margin-top:18px">* Texto comercial de ejemplo de esta demostración; condiciones a confirmar por la clínica.</p>
+</div>
+
+<section id="contacto">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Contacto</span>
+      <h2>Estamos en la Avenida Cabo de Gata, 88</h2>
+      <p>Zona Nueva Almería · Parking gratuito para pacientes.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="cbox">
+        <h3>Habla con nosotros</h3>
+        <div class="cline"><div class="ci">📍</div><div><b>Dirección</b><a href="https://maps.google.com/?q=Avenida+Cabo+de+Gata+88+Almeria" target="_blank" rel="noopener">Avenida Cabo de Gata, 88 · 04007 Almería</a></div></div>
+        <div class="cline"><div class="ci">📞</div><div><b>Teléfono</b><a href="tel:950083749">950 083 749</a></div></div>
+        <div class="cline"><div class="ci">🚨</div><div><b>Emergencias</b><a href="tel:601230124">601 230 124</a></div></div>
+        <div class="cline"><div class="ci">✉️</div><div><b>Email</b><a href="mailto:info@clinirehab.es">info@clinirehab.es</a></div></div>
+        <div class="cline"><div class="ci">🅿️</div><div><b>Parking</b>Gratuito para pacientes</div></div>
+      </div>
+      <div class="hours">
+        <h3>🕐 Horario de la clínica</h3>
+        <table>
+          <tr><td>Lunes y Miércoles</td><td>9:00–13:30 · 16:30–20:30</td></tr>
+          <tr><td>Martes y Jueves</td><td>8:00–15:00</td></tr>
+          <tr><td>Viernes</td><td>9:00–14:00</td></tr>
+          <tr><td>Sábado y Domingo</td><td>Cerrado</td></tr>
+        </table>
+        <p class="note">Horario publicado en clinirehab.es. Confirmar franjas exactas con la clínica al pedir cita.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="f-in">
+      <div>
+        <a class="logo" href="#top">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#2CB9A9"/><path d="M20 18c0-4 3.5-7 8-7 2.2 0 3.2.9 4 .9s1.8-.9 4-.9c4.5 0 8 3 8 7 0 8-4 14-6.5 25-.4 1.8-1.3 3-2.7 3-2.6 0-1.4-9-2.8-9s-.2 9-2.8 9c-1.4 0-2.3-1.2-2.7-3C24 32 20 26 20 18z" fill="#0A3A3E"/></svg>
+          Clinirehab
+        </a>
+        <p style="margin-top:10px;max-width:340px">Clínica de Salud Integral en Almería: dental, fisioterapia, nutrición y medicina del sueño.</p>
+      </div>
+      <div>
+        <p><strong style="color:#fff">Clinirehab</strong><br>Avda. Cabo de Gata, 88 · 04007 Almería<br>950 083 749 · info@clinirehab.es</p>
+      </div>
+    </div>
+    <div class="f-legal">
+      <span>⚠️ Demostración no oficial creada como muestra comercial. No es la web oficial de Clinirehab ni la representa.</span>
+      <a class="hostia-seal" href="https://host-ia.online" rel="noopener"><b>*</b> Hecho por HOST.IA · host-ia.online</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
