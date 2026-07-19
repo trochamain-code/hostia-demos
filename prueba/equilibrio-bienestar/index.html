@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Equilibrio &amp; Bienestar · Masajes y terapias en Los Palacios y Villafranca (Sevilla)</title>
+<meta name="description" content="Centro de masajes y terapias en Los Palacios y Villafranca, Sevilla. Quiromasaje, masaje descontracturante, deportivo y relajante. Pide tu cita online 24 h en C. Samaniego, 6. Tel. 615 94 77 17.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Equilibrio & Bienestar · Masajes y terapias en Los Palacios y Villafranca">
+<meta property="og:description" content="Quiromasaje, descontracturante, deportivo y relajante en Los Palacios y Villafranca. Reserva tu sesión online, a cualquier hora.">
+<meta property="og:locale" content="es_ES">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%235B7355'/><circle cx='16' cy='12' r='5' fill='none' stroke='%23E8DCC8' stroke-width='2'/><path d='M16 18v8M11 26h10' stroke='%23E8DCC8' stroke-width='2' stroke-linecap='round'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "Equilibrio & Bienestar",
+  "description": "Centro de masajes, terapias y estética en Los Palacios y Villafranca (Sevilla). Quiromasaje, masaje terapéutico, descontracturante, deportivo y relajante.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "C. Samaniego, 6",
+    "postalCode": "41720",
+    "addressLocality": "Los Palacios y Villafranca",
+    "addressRegion": "Sevilla",
+    "addressCountry": "ES"
+  },
+  "telephone": "+34615947717",
+  "priceRange": "€€",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "09:00", "closes": "14:00"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "17:00", "closes": "21:00"
+  }],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "5"
+  },
+  "makesOffer": [
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Quiromasaje"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Masaje descontracturante"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Masaje deportivo"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Masaje relajante"}},
+    {"@type":"Offer","itemOffered":{"@type":"Service","name":"Tratamientos de estética"}}
+  ]
+}
+</script>
+<style>
+  :root{
+    --salvia:#5B7355; --salvia-osc:#3E5139; --salvia-claro:#8FA383;
+    --arena:#E8DCC8; --arena-clara:#F6F1E7; --crema:#FDFBF7;
+    --terracota:#C1734F; --tinta:#2A2E27; --gris:#6B6F66;
+    --hostia:#FB2B35;
+    --sombra:0 1px 2px rgba(42,46,39,.04), 0 8px 24px -8px rgba(42,46,39,.12);
+    --sombra-alta:0 2px 4px rgba(42,46,39,.06), 0 24px 48px -16px rgba(42,46,39,.22);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Jost',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight:300;color:var(--tinta);background:var(--crema);
+    line-height:1.7;-webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.serif{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;font-weight:400;line-height:1.15}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  .eyebrow{
+    font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;
+    font-weight:500;color:var(--salvia);margin-bottom:18px;
+  }
+  a{color:inherit}
+
+  /* ---------- NAV ---------- */
+  nav{
+    position:sticky;top:0;z-index:50;background:rgba(253,251,247,.82);
+    backdrop-filter:blur(12px);border-bottom:1px solid rgba(91,115,85,.10);
+  }
+  .nav-in{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:1120px;margin:0 auto}
+  .logo{display:flex;align-items:center;gap:11px;font-family:'Cormorant Garamond',serif;font-size:1.4rem;letter-spacing:.01em}
+  .logo svg{flex:none}
+  .nav-links{display:flex;gap:32px;font-size:.9rem;letter-spacing:.02em}
+  .nav-links a{text-decoration:none;color:var(--gris);transition:color .25s}
+  .nav-links a:hover{color:var(--salvia)}
+  .btn{
+    display:inline-block;padding:13px 26px;border-radius:100px;text-decoration:none;
+    font-size:.88rem;letter-spacing:.06em;font-weight:400;transition:all .3s cubic-bezier(.4,0,.2,1);border:1px solid transparent;
+  }
+  .btn-solid{background:var(--salvia);color:var(--crema);box-shadow:var(--sombra)}
+  .btn-solid:hover{background:var(--salvia-osc);transform:translateY(-2px);box-shadow:var(--sombra-alta)}
+  .btn-linea{border-color:var(--salvia);color:var(--salvia)}
+  .btn-linea:hover{background:var(--salvia);color:var(--crema)}
+  @media(max-width:860px){.nav-links{display:none}}
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;overflow:hidden;background:linear-gradient(170deg,var(--arena-clara) 0%,var(--crema) 60%)}
+  .hero-in{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;padding:92px 24px 100px;max-width:1120px;margin:0 auto}
+  .hero h1{font-size:clamp(2.7rem,5.6vw,4.3rem);letter-spacing:-.015em;margin-bottom:22px}
+  .hero h1 em{font-style:italic;color:var(--salvia)}
+  .hero p.lead{font-size:1.12rem;color:var(--gris);max-width:44ch;margin-bottom:34px}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px}
+  .hero-datos{display:flex;gap:28px;flex-wrap:wrap;font-size:.86rem;color:var(--gris);border-top:1px solid rgba(91,115,85,.14);padding-top:22px}
+  .hero-datos strong{display:block;color:var(--tinta);font-weight:500;font-size:.95rem}
+  /* arte CSS: círculos de calma */
+  .hero-art{position:relative;aspect-ratio:4/5;border-radius:200px 200px 16px 16px;overflow:hidden;
+    background:linear-gradient(160deg,var(--salvia-claro),var(--salvia) 55%,var(--salvia-osc));box-shadow:var(--sombra-alta)}
+  .hero-art::after{
+    content:"";position:absolute;inset:0;
+    background:
+      radial-gradient(circle at 30% 22%,rgba(232,220,200,.34),transparent 42%),
+      radial-gradient(circle at 72% 62%,rgba(193,115,79,.28),transparent 46%),
+      radial-gradient(circle at 50% 92%,rgba(253,251,247,.20),transparent 40%);
+  }
+  .art-nota{
+    position:absolute;left:50%;bottom:22px;transform:translateX(-50%);z-index:2;
+    background:rgba(253,251,247,.90);color:var(--gris);font-size:.7rem;letter-spacing:.04em;
+    padding:7px 15px;border-radius:100px;white-space:nowrap;box-shadow:var(--sombra);
+  }
+  .sello-flotante{
+    position:absolute;top:26px;right:-14px;z-index:3;background:var(--crema);border-radius:14px;
+    padding:14px 18px;box-shadow:var(--sombra-alta);text-align:center;
+  }
+  .sello-flotante .n{font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--salvia);line-height:1}
+  .sello-flotante .t{font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gris);margin-top:3px}
+  @media(max-width:860px){
+    .hero-in{grid-template-columns:1fr;gap:44px;padding:60px 24px 72px}
+    .hero-art{max-width:340px;margin:0 auto;width:100%}
+  }
+
+  /* ---------- SECCIONES ---------- */
+  section{padding:96px 0}
+  .sec-cab{max-width:640px;margin-bottom:52px}
+  .sec-cab h2{font-size:clamp(2rem,3.6vw,2.9rem);letter-spacing:-.01em;margin-bottom:16px}
+  .sec-cab p{color:var(--gris)}
+
+  /* servicios */
+  .servicios{background:var(--arena-clara)}
+  .grid-serv{display:grid;grid-template-columns:repeat(auto-fit,minmax(258px,1fr));gap:22px}
+  .card{
+    background:var(--crema);border-radius:18px;padding:32px 28px;border:1px solid rgba(91,115,85,.09);
+    box-shadow:var(--sombra);transition:transform .35s cubic-bezier(.4,0,.2,1),box-shadow .35s;
+  }
+  .card:hover{transform:translateY(-5px);box-shadow:var(--sombra-alta)}
+  .card .ico{width:44px;height:44px;border-radius:12px;background:rgba(91,115,85,.10);display:grid;place-items:center;margin-bottom:20px}
+  .card h3{font-size:1.5rem;margin-bottom:9px}
+  .card p{font-size:.93rem;color:var(--gris);margin-bottom:16px}
+  .tarifa{font-size:.8rem;color:var(--salvia);letter-spacing:.04em;border-top:1px dashed rgba(91,115,85,.24);padding-top:13px}
+  .tarifa span{opacity:.62;font-size:.72rem}
+
+  /* reservas */
+  .reservas-in{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+  .lista-check{list-style:none;margin-top:26px}
+  .lista-check li{display:flex;gap:13px;align-items:flex-start;margin-bottom:15px;font-size:.96rem}
+  .lista-check svg{flex:none;margin-top:5px}
+  .widget{
+    background:var(--crema);border-radius:22px;box-shadow:var(--sombra-alta);
+    border:1px solid rgba(91,115,85,.10);overflow:hidden;
+  }
+  .widget-top{background:var(--salvia);color:var(--arena-clara);padding:20px 26px;display:flex;justify-content:space-between;align-items:center}
+  .widget-top .serif{font-size:1.3rem}
+  .widget-top .badge{font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;background:rgba(253,251,247,.18);padding:5px 11px;border-radius:100px}
+  .widget-body{padding:26px}
+  .campo{margin-bottom:18px}
+  .campo label{display:block;font-size:.76rem;letter-spacing:.09em;text-transform:uppercase;color:var(--gris);margin-bottom:8px}
+  .campo select,.campo input{
+    width:100%;padding:13px 15px;border:1px solid rgba(91,115,85,.22);border-radius:10px;
+    font-family:inherit;font-size:.94rem;color:var(--tinta);background:var(--crema);font-weight:300;
+  }
+  .campo select:focus,.campo input:focus{outline:2px solid var(--salvia-claro);outline-offset:1px;border-color:var(--salvia)}
+  .horas{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+  .hora{
+    padding:11px 4px;text-align:center;border:1px solid rgba(91,115,85,.22);border-radius:9px;
+    font-size:.86rem;cursor:pointer;transition:all .2s;background:var(--crema);font-family:inherit;color:var(--tinta);
+  }
+  .hora:hover{border-color:var(--salvia);color:var(--salvia)}
+  .hora[aria-pressed="true"]{background:var(--salvia);color:var(--crema);border-color:var(--salvia)}
+  .hora:disabled{opacity:.3;cursor:not-allowed;text-decoration:line-through}
+  .widget .btn-solid{width:100%;text-align:center;margin-top:6px;border:none;cursor:pointer;font-family:inherit}
+  .aviso{font-size:.74rem;color:var(--gris);text-align:center;margin-top:14px;line-height:1.5}
+  .confirma{background:rgba(91,115,85,.08);border-radius:10px;padding:15px;font-size:.88rem;color:var(--salvia-osc);margin-top:16px;display:none}
+  .confirma.on{display:block}
+  @media(max-width:860px){.reservas-in{grid-template-columns:1fr;gap:40px}}
+
+  /* reseñas */
+  .resenas{background:var(--salvia-osc);color:var(--arena-clara)}
+  .resenas .sec-cab h2{color:var(--arena-clara)}
+  .resenas .sec-cab p{color:rgba(232,220,200,.72)}
+  .grid-res{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+  .res{background:rgba(253,251,247,.06);border:1px solid rgba(232,220,200,.14);border-radius:16px;padding:30px 26px}
+  .estrellas{color:#E3B341;letter-spacing:3px;font-size:.9rem;margin-bottom:14px}
+  .res p{font-size:.97rem;font-style:italic;font-family:'Cormorant Garamond',serif;font-size:1.18rem;line-height:1.55;margin-bottom:18px;color:var(--arena)}
+  .res .quien{font-size:.8rem;letter-spacing:.05em;color:rgba(232,220,200,.62)}
+  .res .fuente{font-size:.68rem;color:rgba(232,220,200,.42);margin-top:5px}
+
+  /* sobre */
+  .sobre-in{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}
+  .sobre-art{
+    aspect-ratio:1;border-radius:20px;position:relative;overflow:hidden;
+    background:linear-gradient(145deg,var(--arena),var(--terracota) 130%);box-shadow:var(--sombra-alta);
+  }
+  .sobre-art::after{content:"";position:absolute;inset:0;
+    background:radial-gradient(circle at 68% 30%,rgba(253,251,247,.42),transparent 46%),radial-gradient(circle at 25% 78%,rgba(91,115,85,.30),transparent 50%)}
+  .sobre p{color:var(--gris);margin-bottom:16px}
+  .sobre p strong{color:var(--tinta);font-weight:500}
+  @media(max-width:860px){.sobre-in{grid-template-columns:1fr;gap:36px}}
+
+  /* contacto */
+  .contacto{background:var(--arena-clara)}
+  .grid-cont{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .bloque{background:var(--crema);border-radius:18px;padding:34px 30px;border:1px solid rgba(91,115,85,.09);box-shadow:var(--sombra)}
+  .bloque h3{font-size:1.55rem;margin-bottom:20px}
+  .dato{display:flex;gap:14px;margin-bottom:17px;align-items:flex-start}
+  .dato svg{flex:none;margin-top:3px}
+  .dato div{font-size:.94rem}
+  .dato .et{font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--gris);margin-bottom:2px}
+  .dato a{color:var(--salvia);text-decoration:none;border-bottom:1px solid rgba(91,115,85,.3)}
+  .dato a:hover{color:var(--salvia-osc)}
+  .horario-fila{display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(91,115,85,.10);font-size:.92rem}
+  .horario-fila:last-child{border:0}
+  .horario-fila.cerrado{color:var(--gris);opacity:.65}
+  .horario-fila b{font-weight:400}
+  .mapa{grid-column:1/-1;border-radius:18px;overflow:hidden;box-shadow:var(--sombra);border:1px solid rgba(91,115,85,.09);background:var(--crema);padding:0}
+  .mapa a{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:26px 30px;text-decoration:none;transition:background .25s}
+  .mapa a:hover{background:var(--arena-clara)}
+  @media(max-width:700px){.grid-cont{grid-template-columns:1fr}}
+
+  /* CTA final */
+  .cta-final{background:linear-gradient(160deg,var(--salvia) 0%,var(--salvia-osc) 100%);color:var(--crema);text-align:center}
+  .cta-final h2{font-size:clamp(2.1rem,4.4vw,3.2rem);margin-bottom:18px}
+  .cta-final p{color:rgba(232,220,200,.8);max-width:52ch;margin:0 auto 34px}
+  .cta-final .btn-solid{background:var(--crema);color:var(--salvia-osc)}
+  .cta-final .btn-solid:hover{background:var(--arena)}
+  .cta-final .btn-linea{border-color:rgba(232,220,200,.5);color:var(--arena-clara);margin-left:10px}
+  .cta-final .btn-linea:hover{background:rgba(253,251,247,.12);color:var(--crema)}
+
+  /* footer */
+  footer{background:var(--tinta);color:rgba(232,220,200,.62);padding:56px 0 34px;font-size:.87rem}
+  .foot-in{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;padding-bottom:28px;border-bottom:1px solid rgba(232,220,200,.12)}
+  .foot-in .serif{font-size:1.35rem;color:var(--arena-clara);margin-bottom:8px}
+  .foot-links{display:flex;gap:26px;flex-wrap:wrap}
+  .foot-links a{text-decoration:none;transition:color .25s}
+  .foot-links a:hover{color:var(--arena)}
+  .foot-bajo{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:24px;font-size:.78rem;color:rgba(232,220,200,.42)}
+  .sello-hostia{display:flex;align-items:center;gap:7px}
+  .sello-hostia a{color:rgba(232,220,200,.62);text-decoration:none}
+  .sello-hostia a:hover{color:var(--arena)}
+  .ast{color:var(--hostia);font-size:1.05rem;line-height:1}
+
+  /* banda demo */
+  .banda-demo{background:var(--terracota);color:#fff;text-align:center;padding:11px 24px;font-size:.8rem;letter-spacing:.03em}
+  .banda-demo b{font-weight:500}
+</style>
+</head>
+<body>
+
+<div class="banda-demo">Demo de muestra creada por <b>HOST.IA</b> para Equilibrio &amp; Bienestar · Las fotos y tarifas se personalizan contigo antes de publicar</div>
+
+<nav>
+  <div class="nav-in">
+    <div class="logo">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#5B7355"/><circle cx="16" cy="12" r="5" fill="none" stroke="#E8DCC8" stroke-width="2"/><path d="M16 18v8M11 26h10" stroke="#E8DCC8" stroke-width="2" stroke-linecap="round"/></svg>
+      Equilibrio <em style="color:#5B7355;font-style:italic">&amp;</em> Bienestar
+    </div>
+    <div class="nav-links">
+      <a href="#servicios">Servicios</a>
+      <a href="#reservas">Pedir cita</a>
+      <a href="#sobre">El centro</a>
+      <a href="#contacto">Dónde estamos</a>
+    </div>
+    <a href="#reservas" class="btn btn-solid">Reservar</a>
+  </div>
+</nav>
+
+<!-- ---------- HERO ---------- -->
+<header class="hero">
+  <div class="hero-in">
+    <div>
+      <div class="eyebrow">Los Palacios y Villafranca · Sevilla</div>
+      <h1>Tu cuerpo lleva semanas<br>pidiéndote <em>una hora</em>.</h1>
+      <p class="lead">Quiromasaje, descontracturante, deportivo y relajante en C. Samaniego. Manos que saben dónde aprieta y un rato solo para ti.</p>
+      <div class="hero-cta">
+        <a href="#reservas" class="btn btn-solid">Pedir cita online</a>
+        <a href="tel:+34615947717" class="btn btn-linea">615 94 77 17</a>
+      </div>
+      <div class="hero-datos">
+        <div><strong>5,0 ★</strong>5 reseñas</div>
+        <div><strong>L a V</strong>9–14 h · 17–21 h</div>
+        <div><strong>C. Samaniego, 6</strong>41720 Los Palacios</div>
+      </div>
+    </div>
+    <div style="position:relative">
+      <div class="hero-art">
+        <div class="art-nota">Aquí irá una foto real de tu cabina</div>
+      </div>
+      <div class="sello-flotante">
+        <div class="n">24 h</div>
+        <div class="t">Reservas</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ---------- SERVICIOS ---------- -->
+<section id="servicios" class="servicios">
+  <div class="wrap">
+    <div class="sec-cab">
+      <div class="eyebrow">Lo que hacemos</div>
+      <h2>Cada cuerpo pide una cosa distinta</h2>
+      <p>No todos los masajes valen para todo. Esto es lo que se trabaja en el centro, y para qué sirve cada uno de verdad.</p>
+    </div>
+    <div class="grid-serv">
+
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="1.6" stroke-linecap="round"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg></div>
+        <h3>Quiromasaje</h3>
+        <p>La técnica de la casa. Nacida en España, combina varias manipulaciones para devolver el equilibrio al cuerpo entero, no solo al punto que duele.</p>
+        <div class="tarifa">60 min · desde 35 € <span>· tarifa de ejemplo, se ajusta contigo</span></div>
+      </div>
+
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="1.6" stroke-linecap="round"><path d="M4 12h4l2-6 4 12 2-6h4"/></svg></div>
+        <h3>Descontracturante</h3>
+        <p>Para esa contractura del trapecio que llevas arrastrando desde marzo. Presión profunda sobre el nudo, sin prisa y sin adornos.</p>
+        <div class="tarifa">45 min · desde 30 € <span>· tarifa de ejemplo</span></div>
+      </div>
+
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="5" r="2.2"/><path d="M9 21l2-6-2.5-3 1-4 4 2 2.5 1M11 15l4 6M6.5 9.5L9 8"/></svg></div>
+        <h3>Deportivo</h3>
+        <p>Antes de competir o después de reventarte. Prepara el músculo, acelera la recuperación y te devuelve al entreno del lunes.</p>
+        <div class="tarifa">45 min · desde 35 € <span>· tarifa de ejemplo</span></div>
+      </div>
+
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="1.6" stroke-linecap="round"><path d="M12 3c3 3.5 4.5 6.5 4.5 9a4.5 4.5 0 0 1-9 0c0-2.5 1.5-5.5 4.5-9z"/><path d="M12 21v-4"/></svg></div>
+        <h3>Relajante</h3>
+        <p>Sin objetivo clínico: bajar revoluciones. Maniobras suaves, luz baja y una hora en la que nadie te va a llamar por teléfono.</p>
+        <div class="tarifa">60 min · desde 32 € <span>· tarifa de ejemplo</span></div>
+      </div>
+
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="1.6" stroke-linecap="round"><path d="M12 3v18M5 8l14 8M19 8L5 16"/></svg></div>
+        <h3>Terapéutico</h3>
+        <p>Cuando hay una dolencia detrás: cervicales, lumbares, molestias que vuelven. Sesiones pautadas según lo que necesite tu caso.</p>
+        <div class="tarifa">Valoración previa <span>· sin coste, tarifa de ejemplo</span></div>
+      </div>
+
+      <div class="card">
+        <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg></div>
+        <h3>Estética</h3>
+        <p>Tratamientos de cuidado personal que acompañan al bienestar del cuerpo. Cuéntanos qué buscas y te decimos si es lo tuyo.</p>
+        <div class="tarifa">Consultar <span>· el detalle lo completas tú</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ---------- RESERVAS ---------- -->
+<section id="reservas">
+  <div class="wrap">
+    <div class="reservas-in">
+      <div>
+        <div class="eyebrow">Tu propia agenda</div>
+        <h2 style="font-size:clamp(2rem,3.6vw,2.9rem);margin-bottom:16px">Cierras a las 21:00.<br>Tu web, no.</h2>
+        <p style="color:var(--gris)">La gente decide pedir cita en el sofá a las once y media de la noche. Si en ese momento solo puede llamarte, mañana ya se le ha olvidado. Con la agenda online reserva en veinte segundos y tú te lo encuentras hecho.</p>
+        <ul class="lista-check">
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="2.4" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><b style="font-weight:500">Sin comisiones por reserva.</b> La agenda es tuya, no de una plataforma que se lleva un porcentaje de cada sesión.</span></li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="2.4" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><b style="font-weight:500">Recordatorio automático por WhatsApp.</b> Menos huecos vacíos por olvidos.</span></li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="2.4" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg><span><b style="font-weight:500">Tus horarios reales.</b> Solo se ofrecen los huecos que tú abres; el sábado ni aparece.</span></li>
+        </ul>
+      </div>
+
+      <div class="widget">
+        <div class="widget-top">
+          <span class="serif">Pedir cita</span>
+          <span class="badge">Demo en vivo</span>
+        </div>
+        <div class="widget-body">
+          <div class="campo">
+            <label for="serv">Servicio</label>
+            <select id="serv">
+              <option>Quiromasaje · 60 min</option>
+              <option>Descontracturante · 45 min</option>
+              <option>Deportivo · 45 min</option>
+              <option>Relajante · 60 min</option>
+              <option>Terapéutico · valoración</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="dia">Día</label>
+            <input type="date" id="dia" value="2026-07-20">
+          </div>
+          <div class="campo">
+            <label>Hora disponible</label>
+            <div class="horas">
+              <button class="hora" aria-pressed="false">9:30</button>
+              <button class="hora" aria-pressed="false">11:00</button>
+              <button class="hora" disabled>12:30</button>
+              <button class="hora" aria-pressed="false">13:00</button>
+              <button class="hora" aria-pressed="false">17:00</button>
+              <button class="hora" aria-pressed="false">18:30</button>
+              <button class="hora" disabled>19:00</button>
+              <button class="hora" aria-pressed="false">20:00</button>
+            </div>
+          </div>
+          <button class="btn btn-solid" id="reservar">Confirmar cita</button>
+          <div class="confirma" id="confirma"></div>
+          <p class="aviso">Demostración: en tu web real esto entra directo en tu agenda y te avisa al móvil.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ---------- RESEÑAS ---------- -->
+<section class="resenas">
+  <div class="wrap">
+    <div class="sec-cab">
+      <div class="eyebrow" style="color:var(--salvia-claro)">Lo que dicen</div>
+      <h2>5,0 sobre 5</h2>
+      <p>Las reseñas que ya tienes, donde tienen que estar: en tu casa, no perdidas en una ficha de un directorio.</p>
+    </div>
+    <div class="grid-res">
+      <div class="res">
+        <div class="estrellas">★★★★★</div>
+        <p>“Vito es un excelente profesional, siempre respeta el espacio privado del cliente, cuidando todos los detalles en su trabajo. Te explica cada cosa que hace.”</p>
+        <div class="quien">Virginia Marín Ruiz</div>
+        <div class="fuente">Reseña pública real · recogida de tu ficha en Google</div>
+      </div>
+      <div class="res">
+        <div class="estrellas">★★★★★</div>
+        <p>“Salí nueva. Llevaba meses con la espalda cargada del trabajo y en dos sesiones se me quitó.”</p>
+        <div class="quien">Reseña de ejemplo</div>
+        <div class="fuente">Hueco reservado · aquí irán tus reseñas reales de Google</div>
+      </div>
+      <div class="res">
+        <div class="estrellas">★★★★★</div>
+        <p>“Trato cercano y mucha profesionalidad. Se nota que sabe lo que toca.”</p>
+        <div class="quien">Reseña de ejemplo</div>
+        <div class="fuente">Hueco reservado · aquí irán tus reseñas reales de Google</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ---------- SOBRE ---------- -->
+<section id="sobre" class="sobre">
+  <div class="wrap">
+    <div class="sobre-in">
+      <div class="sobre-art"></div>
+      <div>
+        <div class="eyebrow">El centro</div>
+        <h2 style="font-size:clamp(2rem,3.6vw,2.9rem);margin-bottom:20px">Un sitio tranquilo<br>en Los Palacios</h2>
+        <p>En <strong>C. Samaniego, 6</strong> no vas a encontrar una cadena con música de ascensor. Encontrarás un centro de barrio donde se trabaja con las manos y se explica lo que se está haciendo y por qué.</p>
+        <p>Masaje <strong>terapéutico, relajante, descontracturante y deportivo</strong>, quiromasaje y tratamientos de estética. Lo que necesite tu cuerpo, valorado antes de tocarte.</p>
+        <p style="font-size:.86rem;opacity:.75;border-left:2px solid var(--salvia-claro);padding-left:14px;margin-top:24px">Este texto es una propuesta de HOST.IA a partir de la información pública de tu negocio. Cuéntanos tu historia real y lo reescribimos con tus palabras.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ---------- CONTACTO ---------- -->
+<section id="contacto" class="contacto">
+  <div class="wrap">
+    <div class="sec-cab">
+      <div class="eyebrow">Dónde estamos</div>
+      <h2>Ven cuando te venga bien</h2>
+    </div>
+    <div class="grid-cont">
+
+      <div class="bloque">
+        <h3>Contacto</h3>
+        <div class="dato">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="1.7" stroke-linecap="round"><path d="M21 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 4.2 2 2 0 0 1 3.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L7.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          <div><div class="et">Teléfono</div><a href="tel:+34615947717">615 94 77 17</a></div>
+        </div>
+        <div class="dato">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="1.7" stroke-linecap="round"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-4-1L3 20l1.1-4.9A8.4 8.4 0 0 1 3 11.5a8.4 8.4 0 0 1 8.5-8.4h.5a8.4 8.4 0 0 1 9 8.4z"/></svg>
+          <div><div class="et">WhatsApp</div><a href="https://wa.me/34615947717">+34 615 94 77 17</a></div>
+        </div>
+        <div class="dato">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="1.7" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><div class="et">Dirección</div>C. Samaniego, 6<br>41720 Los Palacios y Villafranca (Sevilla)</div>
+        </div>
+      </div>
+
+      <div class="bloque">
+        <h3>Horario</h3>
+        <div class="horario-fila"><b>Lunes</b><span>9:00–14:00 · 17:00–21:00</span></div>
+        <div class="horario-fila"><b>Martes</b><span>9:00–14:00 · 17:00–21:00</span></div>
+        <div class="horario-fila"><b>Miércoles</b><span>9:00–14:00 · 17:00–21:00</span></div>
+        <div class="horario-fila"><b>Jueves</b><span>9:00–14:00 · 17:00–21:00</span></div>
+        <div class="horario-fila"><b>Viernes</b><span>9:00–14:00 · 17:00–21:00</span></div>
+        <div class="horario-fila cerrado"><b>Sábado</b><span>Cerrado</span></div>
+        <div class="horario-fila cerrado"><b>Domingo</b><span>Cerrado</span></div>
+      </div>
+
+      <div class="bloque mapa">
+        <a href="https://www.google.com/maps/place/?q=place_id:ChIJW5pJO2x3Eg0R5fPIqaNNs50" target="_blank" rel="noopener">
+          <div>
+            <div class="et" style="font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--gris);margin-bottom:5px">Cómo llegar</div>
+            <div class="serif" style="font-size:1.5rem">Abrir en Google Maps</div>
+            <div style="font-size:.88rem;color:var(--gris);margin-top:4px">C. Samaniego, 6 · Los Palacios y Villafranca</div>
+          </div>
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#5B7355" stroke-width="1.6" stroke-linecap="round"><path d="M7 17L17 7M9 7h8v8"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ---------- CTA ---------- -->
+<section class="cta-final">
+  <div class="wrap">
+    <h2>Una hora para ti.<br>Se pide en veinte segundos.</h2>
+    <p>Elige el masaje que necesitas, mira los huecos libres y reserva. Sin llamadas, sin esperar a mañana.</p>
+    <div>
+      <a href="#reservas" class="btn btn-solid">Pedir cita online</a>
+      <a href="https://wa.me/34615947717" class="btn btn-linea">Escribir por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-in">
+      <div>
+        <div class="serif">Equilibrio &amp; Bienestar</div>
+        <div>Masajes, terapias y estética<br>C. Samaniego, 6 · 41720 Los Palacios y Villafranca (Sevilla)<br>615 94 77 17</div>
+      </div>
+      <div class="foot-links">
+        <a href="#servicios">Servicios</a>
+        <a href="#reservas">Pedir cita</a>
+        <a href="#sobre">El centro</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+    <div class="foot-bajo">
+      <div>© 2026 Equilibrio &amp; Bienestar. Todos los derechos reservados.</div>
+      <div class="sello-hostia"><span class="ast">✱</span> Hecho por <a href="https://host-ia.online" target="_blank" rel="noopener">HOST.IA · host-ia.online</a></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Agenda de muestra: selección de hora + confirmación simulada.
+  const horas = document.querySelectorAll('.hora:not([disabled])');
+  const confirma = document.getElementById('confirma');
+  let elegida = null;
+
+  horas.forEach(h => h.addEventListener('click', () => {
+    horas.forEach(o => o.setAttribute('aria-pressed', 'false'));
+    h.setAttribute('aria-pressed', 'true');
+    elegida = h.textContent;
+    confirma.classList.remove('on');
+  }));
+
+  document.getElementById('reservar').addEventListener('click', () => {
+    const serv = document.getElementById('serv').value;
+    const dia = document.getElementById('dia').value;
+    if (!elegida) {
+      confirma.textContent = 'Elige primero una hora disponible.';
+      confirma.classList.add('on');
+      return;
+    }
+    const f = dia ? new Date(dia + 'T00:00:00').toLocaleDateString('es-ES', {weekday:'long', day:'numeric', month:'long'}) : 'el día elegido';
+    confirma.innerHTML = '<b>✓ Cita anotada — ' + serv + '</b><br>' + f + ' a las ' + elegida +
+      '.<br><span style="opacity:.75;font-size:.82rem">En tu web real, aquí entraría en tu agenda y te llegaría un aviso al móvil. Esto es una demostración.</span>';
+    confirma.classList.add('on');
+  });
+</script>
+</body>
+</html>
